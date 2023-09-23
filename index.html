@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+         <!--navbar-->
+        <ul>
+            <li><a href="#home">HOME</a></li>
+   <li><a href="#about">about</a></li>
+
+
+   <li><a href="#Work">#Work</a></li>
+   <li><a href="#resume">Resume</a></li>
+   <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+<!-- About Section -->
+<section id="about">
+<h2>About me </h2>
+
+<p>My name is malak bouhout i'm student of develeppement web </p>
+<img src="source/ma_photo.jpg" width="100px" height="100px" alt="malak">
+
+</section>
+
+<!-- Work section -->
+<section id="Work">
+
+    <h2>My Work</h2>
+    <p>Display your work here </p>
+    </section>
+
+    <!-- resume section -->
+    <section id=" resume">
+        <h2>My resume </h2>
+        <p>Include your resume content or a link to your resume file </p>
+        </section>
+
+
+<!-- contact section -->    
+<section id="Contact">
+    <h2>Contact Me</h2>
+    <form action="your_form_handler.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">email:</label>
+        <input type="email" id="email" name="email"  required><br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+        <input type="submit" value="submit">
+    </form>
+        </section>
+
+        <!--PAGE FOOTER-->
+        <footer>
+            <p>&copy;2023 bouhout malak </p>
+        </footer>
+</body>
+</html>    
+
+
+echo "# CHECKPOINT2" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/bouhoutmalak/CHECKPOINT2.git
+git push -u origin main 
+
